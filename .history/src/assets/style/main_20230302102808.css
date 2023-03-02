@@ -1,0 +1,44 @@
+.btn.btn-secondary {
+  background-color: #00b0ff !important;
+}
+
+.card-img-top {
+  height: 18rem;
+}
+
+.card {
+  padding: 2rem;
+}
+
+.deskripsi {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rate {
+  background-image: url("../images/rating-stars.png");
+  background-position: 0 -12px;
+  background-repeat: repeat-x;
+  height: 12px;
+  width: 60px;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+}
+
+.rating {
+  height: 12px;
+  background-repeat: repeat-x;
+  background-image: url("../images/rating-stars.png");
+  background-position: 0 0;
+}
